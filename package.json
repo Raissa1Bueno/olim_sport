@@ -1,0 +1,23 @@
+{
+  "name": "olim_sport",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Raissa1Bueno/olim_sport.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Raissa1Bueno/olim_sport/issues"
+  },
+  "homepage": "https://github.com/Raissa1Bueno/olim_sport#readme",
+  "dependencies": {
+    "express": "^5.1.0"
+  }
+}
