@@ -12,8 +12,9 @@
       box-sizing: border-box;
     }
     nav {
-      background-color: #311bc2;
+      background-color: #3624bf;
       padding: 10px;
+      text-align: center;
     }
 
     nav a {
@@ -32,7 +33,7 @@
     body {
       font-family: 'Arial', sans-serif;
       background-color: #f0f0f5;
-      color:  #100c2c;
+      color:  #170c0c;
     }
 
     header {
@@ -53,7 +54,7 @@
 
     .welcome h2 {
       font-size: 28px;
-      color: #1a237e;
+      color: #101010;
     }
 
     .decor {
@@ -66,14 +67,14 @@
       max-width: 1000px;
       margin: 0 auto;
       padding: 10px;
-      background: rgb(253, 252, 252);
+      background: rgb(65, 67, 173);
       border-radius: 15px;
-      box-shadow: 0 2px 8px rgba(3, 69, 251, 0.811);
+      box-shadow: 0 2px 8px rgba(255, 255, 255, 0.811);
       margin-bottom: 20px;
     }
 
     .section h3 {
-      color: #1f2243;
+      color: #36336f;
       margin-bottom: 30px;
       font-size: 26px;
     }
@@ -108,8 +109,8 @@
     }
 
     footer {
-      background-color: #1a237e;
-      color: white;
+      background-color: #3e3dad;
+      color: rgb(255, 255, 255);
       text-align: center;
       padding: 15px 0;
       margin-top: 40px;
@@ -127,27 +128,19 @@
       .decor {
         font-size: 30px;
       }
-  .produto-img {
-    width: 200px;
-    height: auto;
-    border-radius: 10px;
-  }
-
-    
-}
+    }
   </style>
 </head>
 <body>
 
   <nav>
-    <a href="/">Início</a> |
-    <a href="/produtos">Produtos</a> |
-    <a href="/carrinho">Carrinho</a>
-    <a href="/sobre">Sobre</a>
-    <a href="/contato">Contato</a>
-    <a href="/depoimentos">Depoimentos</a>
+    <a href="index.html">Início</a> |
+    <a href="produtos.html">Produtos</a> |
+    <a href="carrinho.html">Carrinho</a>
+    <a href="sobre.html">Sobre</a>
+    <a href="contato.html">Contato</a>
+    <a href="depoimento.html">Depoimentos</a>
   </nav>
-
   <header>
     <h1>🏆Olim.sport🏆</h1>
     <p>Seu universo esportivo em um só lugar</p>
@@ -158,32 +151,114 @@
     <div class="decor">⚽🏀🎾🚴‍♂️🥊🏄‍♀️</div>
   </section>
 
-  <section class="produt">
-    <h1>Tênis Nike Air Max</h1>
-    <img src="https://http2.mlstatic.com/D_NQ_NP_2X_742830-MLB81599818028_012025-F-tnis-nike-air-max-alpha-trainer-6-masculino.webp" alt="Tênis Nike Air Max" width="300">
-    <p>Preço: R$ 399,90</p>
-    <button class="button">Comprar</button>
-  </section>
-
-  <section class="produt">
-    <h1>Camiseta Esportiva </h1>
-      <img src="https://www.bing.com/th?id=OPHS.TlnKu0%2fFTZkuaQ474C474&o=5&pid=21.1&w=160&h=228&qlt=100&dpr=1,5&c=8&pcl=f5f5f5" alt="Camiseta Esportiva" width="200" class="produto-img">
-    <p>Preço: R$ 240,90</p>
-    <button class="button">Comprar</button>
-  </section>
-  <div class="galeria">
-    <img src="https://th.bing.com/th/id/OPHS.PUvtsmaRzueE5Q474C474?w=165&h=165&c=17&dpr=1.5&pid=21.1" alt="Rede de vÔlei">
-    <img src="https://th.bing.com/th/id/OPHS.vVFqoVUpYmxHvw474C474?w=248&h=248&c=17&o=5&dpr=1.5&pid=21.1" alt="
-    Calção Adidas Estro 19 Masculino - Masculino - Preto">
-    <img src="imagens/produto3.jpg" alt="Produto 3">
-  <div class="galeria">
-    <p>Rede de vÔlei</p>
-    <img src="https://th.bing.com/th/id/OPHS.PUvtsmaRzueE5Q474C474?w=165&h=165&c=17&dpr=1.5&pid=21.1" alt="Rede de vÔlei" width="200">
-  </div>
-  <div class="galeria">
-    <img src="https://th.bing.com/th/id/OPHS.vVFqoVUpYmxHvw474C474?w=248&h=248&c=17&o=5&dpr=1.5&pid=21.1" alt="
-    Calção Adidas Estro 19 Masculino - Masculino - Preto">
-  </div>
-
+  <!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
   
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #f4f4f4;
+      margin: 0;
+      padding: 20px;
+    }
+    header {
+      text-align: center;
+      margin-bottom: 30px;
+    }
+    h1 {
+      color: #ffffff;
+    }
+    .produtos-container {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+      justify-content: center;
+    }
+    .produto {
+      background: #fff;
+      border-radius: 8px;
+      box-shadow: 0 0 8px rgba(0,0,0,0.1);
+      width: 220px;
+      padding: 15px;
+      text-align: center;
+    }
+    .produto img {
+      max-width: 100%;
+      border-radius: 6px;
+    }
+    .produto h2 {
+      font-size: 1.2em;
+      margin: 10px 0 5px;
+      color: #222;
+    }
+    .produto p {
+      color: #666;
+      font-size: 0.9em;
+      margin: 0 0 10px;
+    }
+    .produto .preco {
+      font-weight: bold;
+      font-size: 1.1em;
+      color: #d400ff;
+    }
+    .botao-comprar {
+      display: inline-block;
+      margin-top: 10px;
+      padding: 8px 15px;
+      background-color: #2deb72ab;
+      color: white;
+      text-decoration: none;
+      border-radius: 5px;
+      transition: background-color 0.3s ease;
+    }
+    .botao-comprar:hover {
+      background-color: #c2185b;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    
+  </header>
+  
+  <main>
+    <div class="produtos-container">
+      <div class="produto">
+        <img src="https://th.bing.com/th/id/OIP.GIrijWgukCCKhoOGunRLZQHaHa?rs=1&pid=ImgDetMain" alt="Produto 1" />
+        <h2>Bola de futebol</h2>
+        <p>Òtima para campos grandes.</p>
+        <p class="preco">R$ 49,90</p>
+        <a href="#" class="botao-comprar">Comprar</a>
+      </div>
+      
+      <div class="produto">
+        <img src="https://th.bing.com/th/id/OIP.ed0yZtIF2Z14ya5l5njkDgHaG-?rs=1&pid=ImgDetMain" alt="Produto 2" />
+        <h2>Fita de ginastica</h2>
+        <p>fita rosa com 3 metros.</p>
+        <p class="preco">R$ 30,99</p>
+        <a href="#" class="botao-comprar">Comprar</a>
+      </div>
+      
+      <div class="produto">
+        <img src="https://th.bing.com/th/id/OIP.kBJpOd4K3zOQ_aGKhDWynQAAAA?rs=1&pid=ImgDetMain" alt="Produto 3" />
+        <h2>Blusa do Brasil</h2>
+        <p>Decido proprio para esporte.</p>
+        <p class="preco">R$ 120,00</p>
+        <a href="#" class="botao-comprar">Comprar</a>
+      </div>
+      
+      <div class="produto">
+        <img src="https://th.bing.com/th/id/OIP.g1GMPfbhsjyo2IBt1r0B7QAAAA?rs=1&pid=ImgDetMain" alt="Produto 4" />
+        <h2>Tênis esportivo preto.</h2>
+        <p>Ótimo para corridas longas.</p>
+        <p class="preco">R$ 99,00</p>
+        <a href="#" class="botao-comprar">Comprar</a>
+      </div>
+    </div>
+  </main>
+</body>
 </html>
+
